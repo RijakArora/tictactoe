@@ -1,0 +1,47 @@
+@keyframes scale {
+    from {
+      transform: scale(1.4);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+div {
+  animation: scale 1.15s ease-in-out;
+}
+
+
+/* styles.css */
+.music-switch {
+    position: relative;
+  }
+  
+  .play,
+  .pause {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .play:before {
+    content: "\25B6"; /* play icon */
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+  }
+  
+  .pause:before {
+    content: "\II"; /* pause icon */
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+  }
+  
+
+  body{
+    overflow: hidden;
+  }
